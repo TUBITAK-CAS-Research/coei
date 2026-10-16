@@ -42,14 +42,14 @@ window.COEI_CONTENT = {
   ],
   invitedSpeakers: [
     {
-      "name": "Prof. Xinliang Wei",
-      "affiliation": "SIAT, Chinese Academy of Sciences",
-      "photo": "assets/people/xinliang-wei.jpg"
-    },
-    {
       "name": "Prof. Shuai Wang",
       "affiliation": "SIAT, Chinese Academy of Sciences",
       "photo": "assets/people/shuai-wang.jpg"
+    },
+    {
+      "name": "Prof. Xinliang Wei",
+      "affiliation": "SIAT, Chinese Academy of Sciences",
+      "photo": "assets/people/xinliang-wei.jpg"
     },
     {
       "name": "Guest speaker from Istanbul",
@@ -64,10 +64,10 @@ window.COEI_CONTENT = {
     { id: 'oct31', weekday: 'Saturday', date: 'October 31', title: 'Main program · Day 1', sessions: [
       ['Morning', 'Welcome remark — Prof. Chengzhong Xu (online)'],
       ['Morning', 'Keynote 1 — Prof. Huseyin Arslan · Approx. 1 hour'],
-      ['Morning', 'Invited Talk 1 — Prof. Xinliang Wei · Approx. 1 hour'],
+      ['Morning', 'Invited Talk 1 — Prof. Shuai Wang · Approx. 1 hour'],
       ['Noon', 'Lunch'],
       ['Afternoon', 'Keynote 2 — Prof. Kejiang Ye · Approx. 1 hour'],
-      ['Afternoon', 'Invited Talk 2 — Prof. Shuai Wang · Approx. 1 hour']
+      ['Afternoon', 'Invited Talk 2 — Prof. Xinliang Wei · Approx. 1 hour']
     ] },
     { id: 'nov01', weekday: 'Sunday', date: 'November 1', title: 'Main program · Day 2', sessions: [
       ['Morning', 'Keynote 3 — Prof. Miaowen Wen · Approx. 1 hour'],

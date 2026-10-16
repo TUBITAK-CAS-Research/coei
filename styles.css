@@ -117,6 +117,6 @@ h2{font-size:clamp(1.65rem,2.2vw,2rem);letter-spacing:-.02em}.section{padding-bl
 
 /* Confirmed speaker roles */
 .speaker-group + .speaker-group { margin-top: 36px; }
-.speaker-content .speaker-group-title { margin: 0 0 20px; color: var(--teal); font-size: 1.2rem; }
+.speaker-content .speaker-group-title { margin: 0 0 32px; color: var(--teal); font-size: 1.2rem; }
 .speaker-info h4 { margin: 0; font-size: 1.15rem; line-height: 1.4; }
 .speaker-info .speaker-status { color: var(--teal); font-weight: 600; }
