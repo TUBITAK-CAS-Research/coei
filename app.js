@@ -60,12 +60,8 @@
   });
   document.querySelector('#organizer-grid').innerHTML = [...organizerGroups].map(([role, people]) => `<div class="organizer-role-group"><h3 class="organizer-role-heading">${escape(role)}</h3><div class="organizer-role-grid">${people.map((person) => `<article class="person-card"><h4>${person.title ? `${escape(person.title)} ` : ''}${escape(person.name)}</h4><p class="person-affiliation">${escape(person.affiliation)}</p></article>`).join('')}</div></div>`).join('');
 
-  if (data.speakers?.length) {
-    document.querySelector('#speaker-content').innerHTML = `<div class="speaker-grid">${data.speakers.map((person) => `<article class="speaker-card">${person.photo ? `<img class="speaker-photo" src="${safeLink(person.photo)}" alt="Portrait of ${escape(person.name)}" width="96" height="112" loading="lazy">` : ''}<div class="speaker-info"><h3>${escape(person.name)}</h3>${person.affiliation ? `<p>${escape(person.affiliation)}</p>` : ''}</div></article>`).join('')}</div>`;
-  } else if (data.keynoteSpeakers.length || data.invitedSpeakers.length) {
-    const renderGroup = (label, speakers) => speakers.length ? `<div class="speaker-list"><h3>${label}</h3>${speakers.map((person) => `<article>${person.photo ? `<img src="${safeLink(person.photo)}" alt="Portrait of ${escape(person.name)}" width="90" height="90" loading="lazy">` : ''}<h3>${escape(person.name)}</h3><p>${escape(person.affiliation)}</p>${person.title ? `<h4>${escape(person.title)}</h4>` : ''}${person.abstract ? `<p>${escape(person.abstract)}</p>` : ''}</article>`).join('')}</div>` : `<div><h3>${label}</h3><p>To be announced.</p></div>`;
-    document.querySelector('#speaker-content').innerHTML = renderGroup('Keynote speakers', data.keynoteSpeakers) + renderGroup('Invited speakers', data.invitedSpeakers);
-  }
+  const renderGroup = (label, speakers = []) => `<section class="speaker-group"><h3 class="speaker-group-title">${escape(label)}</h3><div class="speaker-grid">${speakers.map((person) => `<article class="speaker-card">${person.photo ? `<img class="speaker-photo" src="${safeLink(person.photo)}" alt="Portrait of ${escape(person.name)}" width="96" height="112" loading="lazy">` : ''}<div class="speaker-info"><h4>${escape(person.name)}</h4>${person.affiliation ? `<p>${escape(person.affiliation)}</p>` : ''}${person.note ? `<p class="speaker-status">${escape(person.note)}</p>` : ''}</div></article>`).join('')}</div></section>`;
+  document.querySelector('#speaker-content').innerHTML = renderGroup('Keynote Speakers', data.keynoteSpeakers) + renderGroup('Invited Speakers', data.invitedSpeakers) + renderGroup('Special Guests', data.welcomeSpeakers);
 
   if ('IntersectionObserver' in window) {
     const links = [...nav.querySelectorAll('a[href^="#"]')];

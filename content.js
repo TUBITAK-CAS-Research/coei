@@ -1,6 +1,6 @@
 /* Edit workshop dates, agenda, organizers and confirmed speakers here.
    Plain JavaScript keeps this site build-free and directly usable on GitHub Pages.
-   Empty speaker lists deliberately render the public “To be announced” message. */
+   Unconfirmed speaker details should be explicitly marked “To be announced”. */
 window.COEI_CONTENT = {
   organizers: [
     { name: 'Huseyin Arslan', affiliation: 'Istanbul Medipol University', role: 'General Chair' },
@@ -15,51 +15,70 @@ window.COEI_CONTENT = {
     { name: 'Jawair Yaseen', affiliation: 'Istanbul Medipol University', role: 'Conference Secretary' },
     { name: 'Jiahui He', affiliation: 'SIAT, Chinese Academy of Sciences', role: 'Conference Secretary' }
   ],
-  speakers: [
-    { name: 'Prof. Huseyin Arslan', affiliation: 'Istanbul Medipol University', photo: 'assets/people/huseyin-arslan.jpg' },
-    { name: 'Prof. Chengzhong Xu', affiliation: 'University of Macau', photo: 'assets/people/chengzhong-xu.jpg' },
-    { name: 'Prof. Miaowen Wen', affiliation: 'South China University of Technology', photo: 'assets/people/miaowen-wen.jpg' },
-    { name: 'Prof. Kejiang Ye', affiliation: 'SIAT, Chinese Academy of Sciences', photo: 'assets/people/kejiang-ye.jpg' },
-    { name: 'Prof. Shuai Wang', affiliation: 'SIAT, Chinese Academy of Sciences', photo: 'assets/people/shuai-wang.jpg' },
-    { name: 'Prof. Xinliang Wei', affiliation: 'SIAT, Chinese Academy of Sciences', photo: 'assets/people/xinliang-wei.jpg' }
+  welcomeSpeakers: [
+    {
+      "name": "Prof. Chengzhong Xu",
+      "affiliation": "University of Macau",
+      "photo": "assets/people/chengzhong-xu.jpg",
+      "note": "Online welcome remark"
+    }
   ],
-  // Example after confirmation:
-  // { name: 'Full name', affiliation: 'Institution', title: 'Talk title',
-  //   abstract: 'Approved abstract', photo: 'assets/people/person.jpg' }
-  keynoteSpeakers: [],
-  invitedSpeakers: [],
+  keynoteSpeakers: [
+    {
+      "name": "Prof. Huseyin Arslan",
+      "affiliation": "Istanbul Medipol University",
+      "photo": "assets/people/huseyin-arslan.jpg"
+    },
+    {
+      "name": "Prof. Kejiang Ye",
+      "affiliation": "SIAT, Chinese Academy of Sciences",
+      "photo": "assets/people/kejiang-ye.jpg"
+    },
+    {
+      "name": "Prof. Miaowen Wen",
+      "affiliation": "South China University of Technology",
+      "photo": "assets/people/miaowen-wen.jpg"
+    }
+  ],
+  invitedSpeakers: [
+    {
+      "name": "Prof. Xinliang Wei",
+      "affiliation": "SIAT, Chinese Academy of Sciences",
+      "photo": "assets/people/xinliang-wei.jpg"
+    },
+    {
+      "name": "Prof. Shuai Wang",
+      "affiliation": "SIAT, Chinese Academy of Sciences",
+      "photo": "assets/people/shuai-wang.jpg"
+    },
+    {
+      "name": "Guest speaker from Istanbul",
+      "photo": "assets/people/guest-speaker.svg?v=plain",
+      "note": "To be announced"
+    }
+  ],
   program: [
-    { id: 'oct30', weekday: 'Friday', date: 'October 30', title: 'Welcome reception', sessions: [
-      ['18:00–18:30', 'Arrival and registration'],
-      ['18:30–18:45', 'Welcome remarks'],
-      ['18:45–20:00', 'Welcome reception']
+    { id: 'oct30', weekday: 'Friday', date: 'October 30', title: 'Welcome dinner', sessions: [
+      ['Evening', 'Welcome dinner']
     ] },
-    { id: 'oct31', weekday: 'Saturday', date: 'October 31', title: 'Technical program', sessions: [
-      ['09:00–09:20', 'Registration and poster setup'],
-      ['09:20–09:30', 'Group photo'],
-      ['09:30–09:45', 'Opening remarks'],
-      ['09:45–10:15', 'Keynote talk 1'],
-      ['10:15–10:45', 'Keynote talk 2'],
-      ['10:45–11:15', 'Coffee, posters, and networking'],
-      ['11:15–12:15', 'Morning invited talks'],
-      ['12:15–13:30', 'Lunch and student poster session'],
-      ['13:30–14:30', 'Afternoon invited talks'],
-      ['14:30–15:00', 'Coffee, posters, and networking']
+    { id: 'oct31', weekday: 'Saturday', date: 'October 31', title: 'Main program · Day 1', sessions: [
+      ['Morning', 'Welcome remark — Prof. Chengzhong Xu (online)'],
+      ['Morning', 'Keynote 1 — Prof. Huseyin Arslan · Approx. 1 hour'],
+      ['Morning', 'Invited Talk 1 — Prof. Xinliang Wei · Approx. 1 hour'],
+      ['Noon', 'Lunch'],
+      ['Afternoon', 'Keynote 2 — Prof. Kejiang Ye · Approx. 1 hour'],
+      ['Afternoon', 'Invited Talk 2 — Prof. Shuai Wang · Approx. 1 hour']
     ] },
-    { id: 'nov01', weekday: 'Sunday', date: 'November 1', title: 'Keynotes & panel', sessions: [
-      ['09:00–09:30', 'Morning coffee and arrival'],
-      ['09:30–10:00', 'Keynote talk 3'],
-      ['10:00–10:30', 'Keynote talk 4'],
-      ['10:30–10:50', 'Coffee break'],
-      ['10:50–11:35', 'Keynote panel discussion'],
-      ['11:35–11:50', 'Closing remarks']
+    { id: 'nov01', weekday: 'Sunday', date: 'November 1', title: 'Main program · Day 2', sessions: [
+      ['Morning', 'Keynote 3 — Prof. Miaowen Wen · Approx. 1 hour'],
+      ['Morning', 'Invited Talk 3 — Guest speaker from Istanbul (to be announced) · Approx. 1 hour'],
+      ['Noon', 'Lunch'],
+      ['Afternoon', 'Visit Istanbul Medipol University']
     ] },
-    { id: 'nov02', weekday: 'Monday', date: 'November 2', title: 'University & industry', sessions: [
-      ['09:00–09:30', 'Assembly and departure'],
-      ['09:30–12:00', 'Istanbul Medipol University visit'],
-      ['12:00–14:00', 'Lunch'],
-      ['14:00–16:30', 'Industry visit'],
-      ['16:30–17:00', 'Visit wrap-up and return']
+    { id: 'nov02', weekday: 'Monday', date: 'November 2', title: 'Technical visits', sessions: [
+      ['Morning', 'Visit to Huawei Türkiye'],
+      ['Noon', 'Lunch'],
+      ['Afternoon', 'Visit to TÜBİTAK']
     ] }
   ]
 };
