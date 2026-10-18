@@ -7,7 +7,7 @@ window.COEI_CONTENT = {
     { name: 'Shuai Wang', affiliation: 'SIAT, Chinese Academy of Sciences', role: 'Program Chair' },
     { name: 'Gürkan Orduluoglu', affiliation: 'Huawei Türkiye', role: 'Workshop Co-Chairs' },
     { name: 'He Li', affiliation: 'University of Macau', role: 'Workshop Co-Chairs' },
-    { name: 'Ibrahim Hökelek', affiliation: 'Tubitak Bilgem', role: 'Workshop Co-Chairs' },
+    { name: 'Ibrahim Hokelek', affiliation: 'Tubitak Bilgem', role: 'Workshop Co-Chairs' },
     { name: 'Mert İsmail', affiliation: 'Istanbul Medipol University', role: 'Workshop Co-Chairs' },
     { name: 'Xibin Jin', affiliation: 'South China University of Technology', role: 'Workshop Co-Chairs' },
     { name: 'Aaiza Hamid', affiliation: 'Istanbul Medipol University', role: 'Conference Secretary' },
@@ -20,7 +20,7 @@ window.COEI_CONTENT = {
       "name": "Prof. Chengzhong Xu",
       "affiliation": "University of Macau",
       "photo": "assets/people/chengzhong-xu.jpg",
-      "note": "Online welcome remark"
+      "note": "Online Sharing"
     }
   ],
   keynoteSpeakers: [
@@ -42,6 +42,11 @@ window.COEI_CONTENT = {
   ],
   invitedSpeakers: [
     {
+      "name": "Ibrahim Hokelek",
+      "affiliation": "Tubitak Bilgem",
+      "photo": "assets/people/ibrahim-hokelek.jpg"
+    },
+    {
       "name": "Prof. Shuai Wang",
       "affiliation": "SIAT, Chinese Academy of Sciences",
       "photo": "assets/people/shuai-wang.jpg"
@@ -50,11 +55,6 @@ window.COEI_CONTENT = {
       "name": "Prof. Xinliang Wei",
       "affiliation": "SIAT, Chinese Academy of Sciences",
       "photo": "assets/people/xinliang-wei.jpg"
-    },
-    {
-      "name": "Guest speaker from Istanbul",
-      "photo": "assets/people/guest-speaker.svg?v=plain",
-      "note": "To be announced"
     }
   ],
   program: [
@@ -62,7 +62,8 @@ window.COEI_CONTENT = {
       ['Evening', 'Welcome dinner']
     ] },
     { id: 'oct31', weekday: 'Saturday', date: 'October 31', title: 'Main program · Day 1', sessions: [
-      ['Morning', 'Welcome remark — Prof. Chengzhong Xu (online)'],
+      ['Morning', 'Welcome Remark — Prof. Huseyin Arslan'],
+      ['Morning', 'Online Sharing — Prof. Chengzhong Xu'],
       ['Morning', 'Keynote 1 — Prof. Huseyin Arslan · Approx. 1 hour'],
       ['Morning', 'Invited Talk 1 — Prof. Shuai Wang · Approx. 1 hour'],
       ['Noon', 'Lunch'],
@@ -71,7 +72,7 @@ window.COEI_CONTENT = {
     ] },
     { id: 'nov01', weekday: 'Sunday', date: 'November 1', title: 'Main program · Day 2', sessions: [
       ['Morning', 'Keynote 3 — Prof. Miaowen Wen · Approx. 1 hour'],
-      ['Morning', 'Invited Talk 3 — Guest speaker from Istanbul (to be announced) · Approx. 1 hour'],
+      ['Morning', 'Invited Talk 3 — Ibrahim Hokelek · Approx. 1 hour'],
       ['Noon', 'Lunch'],
       ['Afternoon', 'Visit Istanbul Medipol University']
     ] },
