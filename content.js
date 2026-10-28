@@ -19,8 +19,12 @@ window.COEI_CONTENT = {
     {
       "name": "Prof. Chengzhong Xu",
       "affiliation": "University of Macau",
-      "photo": "assets/people/chengzhong-xu.jpg",
-      "note": "Online Sharing"
+      "photo": "assets/people/chengzhong-xu.jpg"
+    },
+    {
+      "name": "Prof. Miaowen Wen",
+      "affiliation": "South China University of Technology",
+      "photo": "assets/people/miaowen-wen.jpg"
     }
   ],
   keynoteSpeakers: [
@@ -33,11 +37,6 @@ window.COEI_CONTENT = {
       "name": "Prof. Kejiang Ye",
       "affiliation": "SIAT, Chinese Academy of Sciences",
       "photo": "assets/people/kejiang-ye.jpg"
-    },
-    {
-      "name": "Prof. Miaowen Wen",
-      "affiliation": "South China University of Technology",
-      "photo": "assets/people/miaowen-wen.jpg"
     }
   ],
   invitedSpeakers: [
@@ -61,25 +60,22 @@ window.COEI_CONTENT = {
     { id: 'oct30', weekday: 'Friday', date: 'October 30', title: 'Welcome dinner', sessions: [
       ['Evening', 'Welcome dinner']
     ] },
-    { id: 'oct31', weekday: 'Saturday', date: 'October 31', title: 'Main program · Day 1', sessions: [
+    { id: 'oct31', weekday: 'Saturday', date: 'October 31', title: 'Main program', sessions: [
       ['Morning', 'Welcome Remark — Prof. Huseyin Arslan'],
-      ['Morning', 'Online Sharing — Prof. Chengzhong Xu'],
       ['Morning', 'Keynote 1 — Prof. Huseyin Arslan · Approx. 1 hour'],
       ['Morning', 'Invited Talk 1 — Prof. Shuai Wang · Approx. 1 hour'],
       ['Noon', 'Lunch'],
       ['Afternoon', 'Keynote 2 — Prof. Kejiang Ye · Approx. 1 hour'],
-      ['Afternoon', 'Invited Talk 2 — Prof. Xinliang Wei · Approx. 1 hour']
+      ['Afternoon', 'Invited Talk 2 — Prof. Xinliang Wei · Approx. 1 hour'],
+      ['Afternoon', 'Invited Talk 3 — Ibrahim Hokelek · Approx. 1 hour']
     ] },
-    { id: 'nov01', weekday: 'Sunday', date: 'November 1', title: 'Main program · Day 2', sessions: [
-      ['Morning', 'Keynote 3 — Prof. Miaowen Wen · Approx. 1 hour'],
-      ['Morning', 'Invited Talk 3 — Ibrahim Hokelek · Approx. 1 hour'],
-      ['Noon', 'Lunch'],
-      ['Afternoon', 'Visit Istanbul Medipol University']
-    ] },
-    { id: 'nov02', weekday: 'Monday', date: 'November 2', title: 'Technical visits', sessions: [
+    { id: 'nov01', weekday: 'Sunday', date: 'November 1', title: 'Technical visits', sessions: [
       ['Morning', 'Visit to Huawei Türkiye'],
       ['Noon', 'Lunch'],
       ['Afternoon', 'Visit to TÜBİTAK']
+    ] },
+    { id: 'nov02', weekday: 'Monday', date: 'November 2', title: 'Tour', sessions: [
+      ['All day', 'Tour']
     ] }
   ]
 };
