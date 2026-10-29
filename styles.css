@@ -122,5 +122,4 @@ h2{font-size:clamp(1.65rem,2.2vw,2rem);letter-spacing:-.02em}.section{padding-bl
 .speaker-info .speaker-status { color: var(--teal); font-weight: 600; }
 
 /* Viewport onto the portrait in the original BTU seminar poster; source in content.js. */
-.speaker-photo--poster{position:relative;overflow:hidden;height:96px;border-radius:50%}.speaker-photo--poster img{position:absolute;width:500%;max-width:none;height:auto;left:-50%;top:-492.5%}
-@media(max-width:600px){.speaker-photo--poster{height:80px}}
+.speaker-photo--poster{position:relative;overflow:hidden}.speaker-photo--poster img{position:absolute;width:727.2727%;max-width:none;height:auto;left:0;top:0;transform:translate(-13.4%,-70.7714%)}
