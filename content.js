@@ -17,17 +17,17 @@ window.COEI_CONTENT = {
   ],
   welcomeSpeakers: [
     {
-      "name": "Prof. Chengzhong Xu",
-      "affiliation": "University of Macau",
-      "photo": "assets/people/chengzhong-xu.jpg"
-    },
-    {
       "name": "Prof. Miaowen Wen",
       "affiliation": "South China University of Technology",
       "photo": "assets/people/miaowen-wen.jpg"
     }
   ],
   keynoteSpeakers: [
+    {
+      "name": "Prof. Chengzhong Xu",
+      "affiliation": "University of Macau",
+      "photo": "assets/people/chengzhong-xu.jpg"
+    },
     {
       "name": "Prof. Huseyin Arslan",
       "affiliation": "Istanbul Medipol University",
@@ -73,12 +73,12 @@ window.COEI_CONTENT = {
     { id: 'oct31', weekday: 'Saturday', date: 'October 31', title: 'Main program', sessions: [
       ['08:00–08:30', 'Coffee Break'],
       ['09:00–09:30', 'Welcome Remarks — Prof. Huseyin Arslan'],
-      ['09:30–10:00', 'Online Sharing — Prof. Chengzhong Xu'],
+      ['09:30–10:00', 'Keynote 1 (Online) — Prof. Chengzhong Xu'],
       ['10:00–10:15', 'Break'],
-      ['10:15–11:00', 'Keynote 1 — Prof. Huseyin Arslan'],
+      ['10:15–11:00', 'Keynote 2 — Prof. Huseyin Arslan'],
       ['11:00–12:00', 'Invited Talk 1 — Prof. Shuai Wang'],
       ['12:00–12:30', 'Lunch'],
-      ['13:00–14:00', 'Keynote 2 — Prof. Kejiang Ye'],
+      ['13:00–14:00', 'Keynote 3 — Prof. Kejiang Ye'],
       ['14:00–15:00', 'Invited Talk 2 — Prof. Xinliang Wei'],
       ['15:00–15:15', 'Coffee Break'],
       ['15:15–16:00', 'Invited Talk 3 — Dr. Doğan Dalva']
