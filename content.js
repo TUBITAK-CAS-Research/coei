@@ -71,17 +71,16 @@ window.COEI_CONTENT = {
       ['Evening', 'Welcome dinner']
     ] },
     { id: 'oct31', weekday: 'Saturday', date: 'October 31', title: 'Main program', sessions: [
-      ['08:00–08:30', 'Coffee Break'],
-      ['09:00–09:30', 'Welcome Remarks — Prof. Huseyin Arslan'],
-      ['09:30–10:00', 'Keynote 1 (Online) — Prof. Chengzhong Xu'],
-      ['10:00–10:15', 'Break'],
-      ['10:15–11:00', 'Keynote 2 — Prof. Huseyin Arslan'],
-      ['11:00–12:00', 'Invited Talk 1 — Prof. Shuai Wang'],
-      ['12:00–12:30', 'Lunch'],
-      ['13:00–14:00', 'Keynote 3 — Prof. Kejiang Ye'],
-      ['14:00–15:00', 'Invited Talk 2 — Prof. Xinliang Wei'],
-      ['15:00–15:15', 'Coffee Break'],
-      ['15:15–16:00', 'Invited Talk 3 — Dr. Doğan Dalva']
+      ['08:00–08:30', 'Pick-up from Hotel'],
+      ['08:30–09:00', 'Morning Coffee'],
+      ['09:00–09:10', 'Welcome Remarks — Prof. Huseyin Arslan'],
+      ['09:10–09:55', 'Keynote 1 (Online) — Prof. Chengzhong Xu'],
+      ['09:55–10:40', 'Keynote 2 — Prof. Huseyin Arslan'],
+      ['10:40–11:25', 'Invited Talk 1 — Prof. Shuai Wang'],
+      ['11:25–13:30', 'Lunch'],
+      ['13:30–14:15', 'Keynote 3 — Prof. Kejiang Ye'],
+      ['14:15–15:00', 'Invited Talk 2 — Prof. Xinliang Wei'],
+      ['15:00–15:45', 'Invited Talk 3 — Dr. Doğan Dalva']
     ] },
     { id: 'nov01', weekday: 'Sunday', date: 'November 1', title: 'City tour & lunch', sessions: [
       ['Morning', 'City Tour & Get-Together — IMU and SIAT'],
