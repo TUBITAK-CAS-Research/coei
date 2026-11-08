@@ -20,6 +20,13 @@ window.COEI_CONTENT = {
       "name": "Prof. Miaowen Wen",
       "affiliation": "South China University of Technology",
       "photo": "assets/people/miaowen-wen.jpg"
+    },
+    {
+      "name": "Dr. Ali Görçin",
+      "affiliation": "TÜBİTAK BİLGEM",
+      "note": "President",
+      "photo": "assets/people/ali-gorcin.png",
+      "photoSource": "https://en.bilgem.tubitak.gov.tr/en/management/president-ali-gorcin/"
     }
   ],
   keynoteSpeakers: [
@@ -60,8 +67,7 @@ window.COEI_CONTENT = {
     {
       "name": "İbrahim Hökelek",
       "affiliation": "TÜBİTAK BİLGEM",
-      "photo": "assets/people/ibrahim-hokelek.jpg",
-      "note": "Research presentations · Monday, TÜBİTAK visit"
+      "photo": "assets/people/ibrahim-hokelek.jpg"
     }
   ],
   program: [
