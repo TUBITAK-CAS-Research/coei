@@ -1,0 +1,178 @@
+{
+  "days": [
+    {
+      "id": "oct30",
+      "label": "Day 1",
+      "date": "October 30",
+      "title": "Arrival & Medipol visit"
+    },
+    {
+      "id": "oct31",
+      "label": "Day 2",
+      "date": "October 31",
+      "title": "Main conference"
+    },
+    {
+      "id": "nov01",
+      "label": "Day 3",
+      "date": "November 1",
+      "title": "City tour & lunch"
+    },
+    {
+      "id": "nov02",
+      "label": "Day 4",
+      "date": "November 2",
+      "title": "Technical visits"
+    }
+  ],
+  "photos": [
+    {
+      "id": "coei",
+      "file": "coei.jpg",
+      "day": "oct31",
+      "caption": "CoEI 2026 group photograph"
+    },
+    {
+      "id": "czxu",
+      "file": "czxu.jpg",
+      "day": "oct31",
+      "caption": "Online keynote · Chengzhong Xu",
+      "description": "World Models for Robust Autonomous Driving in Mixed Traffic"
+    },
+    {
+      "id": "huseyin",
+      "file": "huseyin.jpg",
+      "day": "oct31",
+      "caption": "Keynote · Huseyin Arslan",
+      "description": "6G and Beyond Wireless"
+    },
+    {
+      "id": "kejiang",
+      "file": "kejiang.jpg",
+      "day": "oct31",
+      "caption": "Keynote · Kejiang Ye",
+      "description": "Embracing the Low-Altitude Economy: The Empowering Role of AI"
+    },
+    {
+      "id": "shuai",
+      "file": "shuai.jpg",
+      "day": "oct31",
+      "caption": "Invited talk · Shuai Wang",
+      "description": "Robot Learning for Full-Domain Embodied Navigation"
+    },
+    {
+      "id": "xinliang",
+      "file": "xinliang.jpg",
+      "day": "oct31",
+      "caption": "Invited talk · Xinliang Wei",
+      "description": "Quantum-Classical Collaborative Optimization: From Intelligent Scheduling in Edge Computing to Quantum Network Architecture Design",
+      "source": "CoEI2026会议新闻稿_V5.docx · word/media/image6.jpeg"
+    },
+    {
+      "id": "huawei",
+      "file": "huawei.jpg",
+      "day": "nov02",
+      "caption": "Research exchange at Huawei Türkiye",
+      "description": "November 2, morning · Discussions on 5G, robotics, artificial intelligence and future 6G + AI cooperation."
+    },
+    {
+      "id": "huawei-group",
+      "file": "huawei-group.png",
+      "day": "nov02",
+      "caption": "Group photograph at Huawei Türkiye",
+      "source": "Organizer-provided higher-resolution image, 2026-11-08"
+    },
+    {
+      "id": "president",
+      "file": "president.jpg",
+      "day": "nov02",
+      "caption": "Meeting with the President of TÜBİTAK BİLGEM",
+      "description": "November 2, afternoon · Exchange with Dr. Ali Görçin, President of TÜBİTAK BİLGEM."
+    },
+    {
+      "id": "bilgem",
+      "file": "bilgem.jpg",
+      "day": "nov02",
+      "caption": "Group photograph at TÜBİTAK BİLGEM"
+    },
+    {
+      "id": "wirelesslab",
+      "file": "wirelesslab.jpg",
+      "day": "nov02",
+      "caption": "Wireless research discussion at TÜBİTAK BİLGEM"
+    },
+    {
+      "id": "robotlab",
+      "file": "robotlab.jpg",
+      "day": "nov02",
+      "caption": "Robotics research exchange at TÜBİTAK BİLGEM",
+      "description": "November 2, afternoon · Discussions on robotics, wireless communications and research in the AI era."
+    },
+    {
+      "id": "labvisit",
+      "file": "labvisit.jpg",
+      "day": "oct30",
+      "caption": "Laboratory visit and research exchange at Istanbul Medipol University"
+    },
+    {
+      "id": "6g",
+      "file": "6g.jpg",
+      "day": "oct30",
+      "caption": "Group photograph at Istanbul Medipol University"
+    }
+  ],
+  "sections": [
+    {
+      "id": "main-conference",
+      "title": "Main Conference",
+      "rows": [
+        [
+          "coei"
+        ],
+        [
+          "czxu",
+          "huseyin"
+        ],
+        [
+          "kejiang",
+          "shuai",
+          "xinliang"
+        ]
+      ]
+    },
+    {
+      "id": "huawei",
+      "title": "Visit at Huawei Türkiye",
+      "rows": [
+        [
+          "huawei",
+          "huawei-group"
+        ]
+      ]
+    },
+    {
+      "id": "bilgem",
+      "title": "Visit at TÜBİTAK BİLGEM",
+      "rows": [
+        [
+          "president",
+          "bilgem"
+        ],
+        [
+          "wirelesslab",
+          "robotlab"
+        ]
+      ]
+    },
+    {
+      "id": "imu",
+      "title": "Visit at Istanbul Medipol University",
+      "rows": [
+        [
+          "labvisit",
+          "6g"
+        ]
+      ]
+    }
+  ]
+}
